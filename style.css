@@ -66,7 +66,7 @@ a { color:#7baf30; text-decoration:underline;}
 #formsearch input.button_search { margin:6px 0 0 0; padding:0; border:none; float:right;}
 
 /* content */
-.content {background-color: #343434;}
+.content {background-color: #1f262c;}
 .content_resize { padding-right:0; padding-top:16px; width:930px; background-color:#fdfdfd; border-radius: 0px 0px 8px 8px;}
 .content .mainbar { float:left; width:630px;}
 .content .mainbar img { margin-bottom:24px; padding:4px; background-color:#fff;}
