@@ -12,7 +12,7 @@
 <body>
 <div class="main">
   <div class="header">
-    <div class="header_resize">
+    <div class="header_resize" onpointermove="zoomImage(event)">
       <div class="menu_nav">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
@@ -33,6 +33,19 @@
       <div class="logo">
         <h1><a href="index.html">Touchless Dumpster<br />
           <small>Redefining Waste Management, One Gesture at a Time.</small></a></h1>
+	<script>
+        let currentZoom = 100;
+
+        function zoomImage(event) {
+            const zoomFactor = 2; // You can adjust this value for the desired zoom level
+
+            if (event.pointerType === 'touch') {
+                currentZoom += event.deltaY > 0 ? -zoomFactor : zoomFactor;
+                document.querySelector('.header').style.backgroundSize = `${currentZoom}%`;
+                event.preventDefault();
+            }
+        }
+    </script>
       </div>
     </div>
   </div>
