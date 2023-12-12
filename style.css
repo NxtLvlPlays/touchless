@@ -32,7 +32,7 @@ a { color:#7baf30; text-decoration:underline;}
     transition: transform 0.5s ease; }
 /*@media only screen and (min-device-width: 400%;  ) { .header { background:url(header_bg.jpg) repeat-x center top; width: 970%; height: 337%; transform: scale (1.2); transition: transform 0.5s ease; overflow: hidden; } }*/
 @media only screen and (min-width: 768px) {
-    .header:hover {
+    .header .logo :hover {
         transform: scale(1.2); /* Adjust the zoom level as needed */
     }
 }
