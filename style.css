@@ -24,7 +24,7 @@ a { color:#7baf30; text-decoration:underline;}
 .content_resize, .fbg_resize, .footer_resize { margin:0 auto; padding:0 40px; width:890px;}
 
 /* header */
-.header { background:url(header_bg.jpg) repeat-x center top; background-size: 100% 100%; }
+.header { background:url(header_bg.jpg) repeat-x center top; background-size: cover; }
 .header_resize { margin:0 auto; padding:0; width:970px; height:337px; }
 .header .logo{ padding:100px 0 0; }
 
