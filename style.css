@@ -38,6 +38,7 @@ a { color:#7baf30; text-decoration:underline;}
     /* Set fixed background for desktop */
     @media only screen and (min-width: 768px) {
         background-attachment: fixed;
+        width: 100%;
     }
     
     /* Avoid tiling on mobile */
