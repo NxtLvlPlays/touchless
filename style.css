@@ -25,10 +25,10 @@ a { color:#7baf30; text-decoration:underline;}
 
 /* header */
 .header { /*background:url(header_bg.jpg) repeat-x center top;*/ 
-    width: 970px;/*width:100;*/
-    height: 377px;
+    width: 100%;
+    height: 300px;
     background-image: url('header_bg.jpg');
-    background-size: cover;  /*Stretch the image to cover the entire width and height */
+    background-size: cover; /* Stretch the image to cover the entire width and height */
     background-position: center;
     transition: background-size 0.5s ease; /* Adjust the transition for smoother zooming */ }
     
