@@ -32,7 +32,7 @@ a { color:#7baf30; text-decoration:underline;}
     background-position: center;
     transition: background-size 0.5s ease;  /*Adjust the transition for smoother zooming */
 
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: 100% 100%;
     /*margin: 0 auto;*/
 
