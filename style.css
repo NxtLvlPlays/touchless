@@ -24,17 +24,17 @@ a { color:#7baf30; text-decoration:underline;}
 .content_resize, .fbg_resize, .footer_resize { margin:0 auto; padding:0 40px; width:890px;}
 
 /* header */
-.header { /*background:url(header_bg.jpg) repeat-x center top;*/    width: 100%;
-    height: 300px; /* Set an appropriate height */
-    background-image: url('header_bg.jpg'); /* Reference your image */
+.header { /*background:url(header_bg.jpg) repeat-x center top;*/ 
+    width: 100%;
+    height: 300px;
+    background-image: url('header_bg.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    transition: transform 0.5s ease; }
+    transition: background-size 0.5s ease; /* Adjust the transition for smoother zooming */ }
 /*@media only screen and (min-device-width: 400%;  ) { .header { background:url(header_bg.jpg) repeat-x center top; width: 970%; height: 337%; transform: scale (1.2); transition: transform 0.5s ease; overflow: hidden; } }*/
-@media only screen and (min-width: 768px) {
-    .header {
-        background-size: 100%; /* Adjust the zoom level as needed */
+    /* Set a fixed background size for smaller screens */
+    @media only screen and (max-width: 767px) {
+        background-size: 100% auto;
     }
 }
 .header_resize { margin:0 auto; padding:0; width:970px; height:337px; }
