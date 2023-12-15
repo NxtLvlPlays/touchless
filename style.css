@@ -31,11 +31,13 @@ a { color:#7baf30; text-decoration:underline;}
     /*background-size: cover;*/
     background-position: center;
     transition: background-size 0.5s ease;  /*Adjust the transition for smoother zooming */
-  margin: 0 auto;
 
     /* Set fixed background for desktop */
     @media only screen and (min-width: 768px) {
         background-attachment: fixed;
+        background-size: cover;
+        width: 970px; /* Adjust as needed */
+        margin: 0 auto; /* Center the content within the specified width */
     }
     
     /* Avoid tiling on mobile */
