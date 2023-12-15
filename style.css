@@ -28,13 +28,13 @@ a { color:#7baf30; text-decoration:underline;}
     width: 100%;
     height: 300px;
     background-image: url('header_bg.jpg');
-    background-size: cover;
+    background-size: 100% 100%; /* Stretch the image to cover the entire width and height */
     background-position: center;
     transition: background-size 0.5s ease; /* Adjust the transition for smoother zooming */ }
 /*@media only screen and (min-device-width: 400%;  ) { .header { background:url(header_bg.jpg) repeat-x center top; width: 970%; height: 337%; transform: scale (1.2); transition: transform 0.5s ease; overflow: hidden; } }*/
     /* Set a fixed background size for smaller screens */
     @media only screen and (max-width: 767px) {
-        background-size: 100% 100%;
+        background-size: cover;
     }
 }
 .header_resize { margin:0 auto; padding:0; width:970px; height:337px; }
